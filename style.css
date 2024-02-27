@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+background-color: rgb(247, 161, 247);
+}
+
+header img {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+a{
+text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+margin: 50px;
+}
+
+img{
+    width: 150px;
+}
+
+h1{
+    font-size: 30px;
+    color: darkmagenta;
+}
+
+p{
+    font-size: 24px;
+    color: rgb(0, 0, 0)
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-image: linear-gradient(to right bottom, #f244c5, #ff4c92, #ff805b, #ffbd25, #fff522);
+    
+}
+
+.caja {
+width: 100%;
+height: 100%;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Delicious Handrawn', cursive;
+}
+
+.caja img {
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.presentación{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Delicious Handrawn', cursive;
+    background-image: linear-gradient(to right bottom, #f244c5, #ff4c92, #ff805b, #ffbd25, #fff522);
+    }
+
+.presentación img{
+    border-radius: 50%;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+}
+
+.presentación p {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#carouselExampleIndicators img{
+    padding: 5% 30% 5% 30%;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(196, 158, 240);
+}
